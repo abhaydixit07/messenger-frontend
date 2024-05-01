@@ -5,7 +5,7 @@ import Browser from '../assets/browser.png'
 import { ChannelSearch, TeamChannelList, TeamChannelPreview } from './';
 import HospitalIcon from '../assets/hospital.png'
 import LogoutIcon from '../assets/logout.png'
-import Arrow from '../assets/right-arrow-svgrepo-com.png'
+import Arrow from '../assets/arrow.svg'
 import Question from '../assets/question.svg'
 const cookies = new Cookies();
 
