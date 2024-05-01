@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #005fff;
-  --primary-color-alpha: #005fff1a;
+  --primary-color: #000000f0;
+  --primary-color-alpha: #00000040;
 }
 
 html,
@@ -460,12 +460,15 @@ body {
 }
 
 .channel-list__header__text {
-  font-family: Helvetica Neue, sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
+  
   font-style: normal;
   font-weight: bold;
-  font-size: 18px;
-  line-height: 28px;
+  font-size: 15px; /* Increase the font size for better readability */
+  line-height: 30px; /* Increase the line height to match the new font size */
   color: #ffffff;
+  letter-spacing: 0.5px; /* Add letter spacing to improve readability */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow for better contrast */
 }
 
 .channel-search__container {
@@ -1032,6 +1035,17 @@ body {
   text-overflow: ellipsis;
   word-break: break-all;
 }
+.str-chat__channel-list {
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  background-color: #cacaca35;
+  border-radius: 22px; /* Adjust the value as per your preference */
+}
+.str-chat__channel-list p {
+  padding-top: 15px;
+}
+
 
 .channel-preview__item.multi {
   max-width: 220px;
