@@ -39,27 +39,24 @@ export default function Footer() {
         </section>
 
         <section className='mb-4' style={{paddingTop:'20px'}}>
-          <MDBBtn outline color="light" floating className='m-1 rounded-circle' href='#!' role='button'>
-            <MDBIcon fab icon='facebook-f' />
-          </MDBBtn>
 
-          <MDBBtn outline color="light" floating className='m-1 rounded-circle' href='#!' role='button'>
+          <MDBBtn outline color="light" floating className='m-1 rounded-circle' href='https://twitter.com/AbhayDixit227' role='button'>
             <MDBIcon fab icon='twitter' />
           </MDBBtn>
 
-          <MDBBtn outline color="light" floating className='m-1 rounded-circle' href='#!' role='button'>
+          <MDBBtn outline color="light" floating className='m-1 rounded-circle' href='mailto:abhaydixit227@gmail.com' role='button'>
             <MDBIcon fas icon='envelope'/>
           </MDBBtn>
 
-          <MDBBtn outline color="light" floating className='m-1 rounded-circle' href='#!' role='button'>
+          <MDBBtn outline color="light" floating className='m-1 rounded-circle' href='https://www.instagram.com/abhay.dixit07' role='button'>
             <MDBIcon fab icon='instagram' />
           </MDBBtn>
 
-          <MDBBtn outline color="light" floating className='m-1 rounded-circle' href='#!' role='button'>
+          <MDBBtn outline color="light" floating className='m-1 rounded-circle' href='https://www.linkedin.com/in/abhay-dixit-546b85254/' role='button'>
             <MDBIcon fab icon='linkedin-in' />
           </MDBBtn>
 
-          <MDBBtn outline color="light" floating className='m-1 rounded-circle' href='#!' role='button'>
+          <MDBBtn outline color="light" floating className='m-1 rounded-circle' href='https://github.com/abhaydixit07' role='button'>
             <MDBIcon fab icon='github' />
           </MDBBtn>
         </section>
