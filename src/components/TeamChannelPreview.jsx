@@ -5,9 +5,11 @@ const TeamChannelPreview = ({ setActiveChannel, setIsCreating, setIsEditing, set
     const { channel: activeChannel, client } = useChatContext();
 
     const ChannelPreview = () => (
+        <div className='channel-preview'>
         <p className="channel-preview__item">
             # {channel?.data?.name || channel?.data?.id}
         </p>
+        </div>
     );
 
 

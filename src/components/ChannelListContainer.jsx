@@ -1,18 +1,19 @@
 import React, { useState } from 'react';
 import { ChannelList, useChatContext } from 'stream-chat-react';
 import Cookies from 'universal-cookie';
-
+import Browser from '../assets/browser.png'
 import { ChannelSearch, TeamChannelList, TeamChannelPreview } from './';
 import HospitalIcon from '../assets/hospital.png'
 import LogoutIcon from '../assets/logout.png'
 import Arrow from '../assets/right-arrow-svgrepo-com.png'
+import Question from '../assets/question.svg'
 const cookies = new Cookies();
 
 const SideBar = ({ logout }) => (
     <div className="channel-list__sidebar">
         <div className="channel-list__sidebar__icon1">
             <div className="icon1__inner">
-                <img src={HospitalIcon} alt="Hospital" width="30" />
+                <img src={Browser} alt="Hospital" width="30" />
             </div>
         </div>
         <div className="channel-list__sidebar__icon2">
@@ -20,13 +21,23 @@ const SideBar = ({ logout }) => (
                 <img src={LogoutIcon} alt="Logout" width="30" />
             </div>
         </div>
+
+        <div className="channel-list__sidebar__icon2">
+            <div className="icon1__inner" onClick={logout}>
+                <img src={Question} alt="FAQs" width="30" />
+            </div>
+        </div>
     </div>
 );
 
 const CompanyHeader = () => (
     <div className="channel-list__header">
-        <p className="channel-list__header__text">Medical Pager</p>
-    </div>
+    <p className="channel-list__header__text" style={{paddingTop:'15px', fontSize:'30px'}}>
+        <span style={{textDecoration:'underline'}}>ConnZen</span>
+        <br/>
+        <span className='channel-list__header__text' style={{fontSize:'18px'}}>Welcome {cookies.get('fullName')}!</span>
+    </p>
+</div>
 )
 
 const customChannelTeamFilter = (channels) => {
