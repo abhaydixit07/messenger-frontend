@@ -20,7 +20,7 @@ export default function Footer() {
           ConnZen where direct messaging meets seamless channel communication, fostering connections effortlessly. Streamline your conversations with ConnZen, the ultimate chat app blending direct messages and channels for unparalleled communication.
           </p>
         </section>
-        <section className=''>
+        <section className='' style={{paddingBottom: '30px'}}>
           <MDBRow className='d-flex justify-content-center'>
             <MDBCol lg='6'>
               <div className='ratio ratio-16x9'>
