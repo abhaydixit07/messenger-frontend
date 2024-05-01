@@ -10,6 +10,7 @@ import EditChannel from "./EditChannel";
 import Auth from "./Auth";
 import UserList from "./UserList";
 import ResultsDropdown from "./ResultsDropdown";
+import Footer from "./Footer";
 export  {
     ChannelContainer,
     ChannelListContainer,

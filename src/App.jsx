@@ -4,6 +4,7 @@ import { ChannelList, Chat } from 'stream-chat-react'
 import Cookies from 'universal-cookie';
 import './App.css';
 import 'stream-chat-react/dist/css/index.css';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
 import { ChannelContainer, ChannelListContainer, Auth } from './components';
