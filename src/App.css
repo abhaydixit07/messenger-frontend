@@ -893,6 +893,7 @@ body {
   font-size: 18px;
   color: #2c2c30;
   margin-right: 8px;
+  padding-top: 15px;
 }
 
 .team-channel-header__name-wrapper {
@@ -1045,6 +1046,7 @@ body {
 .str-chat__channel-list p {
   padding-top: 15px;
 }
+
 
 
 .channel-preview__item.multi {
